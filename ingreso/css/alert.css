@@ -1,0 +1,48 @@
+.informacion{
+  padding: 20px;
+   background-color: #1E90FF; /* Red */
+   color: white;
+   margin-bottom: 15px;
+   border: double;
+  border-width: 10px 4px;
+  border-radius: 10px 40px;
+}
+
+.informacionCobro{
+  padding: 20px;
+   background-color: green; /* Red */
+   color: white;
+   margin-bottom: 15px;
+   border: double;
+  border-width: 10px 4px;
+  border-radius: 10px 40px;
+}
+
+.alerta{
+  padding: 20px;
+   background-color: #1E90FF; /* Red */
+   color: white;
+   margin-bottom: 15px;
+   border: double;
+  border-width: 10px 4px;
+  border-radius: 10px 40px;
+}
+.exito{
+  padding: 20px;
+   background-color:#29DA6E; /* Red */
+   color: white;
+   margin-bottom: 15px;
+   border: double;
+  border-width: 10px 4px;
+  border-radius: 10px 40px;
+}
+.error{
+  padding: 20px;
+   background-color: #f44336; /* Red */
+   color: white;
+   margin-bottom: 15px;
+   border: double;
+     border-width: 10px 4px;
+     border-radius: 10px 40px;
+
+}
