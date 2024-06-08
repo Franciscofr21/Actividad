@@ -1,4 +1,4 @@
- <?php
+<?php
 session_start();
 include "conexion.php";
 ?>
@@ -23,7 +23,7 @@ include "conexion.php";
         <center>
           <div class="container-portada">
               <div class="capa=gradient"></div>
-              <div class="containber-details">
+              <div class="container-details">
                   <div class="details">
                      <br><br>
                      <section class="container">
@@ -56,7 +56,7 @@ include "conexion.php";
 
                                             <?php if($data['idusuario'] !=1){
                                                 ?>
-                                                <a class="link_delete" href="eliminar_confirmar_usuario.php?id=<?php echo $data['idusuario']?>">Eliminar</a>
+                                                <a class="link_delete" href="eliminar_usuario.php?id=<?php echo $data['idusuario']?>">Eliminar</a>
                                                 <?php 
                                             }
                                             ?>
@@ -76,4 +76,4 @@ include "conexion.php";
         <div class="row pad'botm"></div>
     </div>
 </body>
-</html> 
+</html>
